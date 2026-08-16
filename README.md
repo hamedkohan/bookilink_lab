@@ -2,13 +2,21 @@
 
 Bookilink Lab is a fast product prototype for making books interactive rather than merely searchable.
 
+## Instant browser preview
+
+Open the demo-only Streamlit preview with no install, API key, or server:
+
+**https://share.stlite.net/#https://github.com/hamedkohan/bookilink_lab/blob/main/preview.py**
+
+`preview.py` is deliberately self-contained and uses sample content only. The real ingestion/RAG implementation is in `app.py`.
+
 ## Experiences
 
 - **Book DNA** — thesis, recurring beliefs, assumptions, strongest/weakest arguments, tensions and durable takeaways.
 - **Talk / Interrogate** — grounded conversation with `Talk`, `Interrogate`, `Skeptical`, `Devil's advocate`, and `Academic critique` modes.
 - **Book Debate** — retrieve evidence from two books and put their ideas into one structured argument.
 
-The deployed app opens in **Demo mode**, so it can be explored without an API key. Switch to **Live** to upload your own PDF/EPUB and run the real pipeline.
+The full app opens in **Demo mode**, so it can be explored without an API key. Switch to **Live** to upload your own PDF/EPUB and run the real pipeline.
 
 ## Live architecture
 
